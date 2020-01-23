@@ -1,0 +1,13 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.websocket {
+    .card-title {
+        span {
+            font-style: italic;
+
+            &::first-letter {
+                text-transform: uppercase;
+            }
+        }
+    }
+}
